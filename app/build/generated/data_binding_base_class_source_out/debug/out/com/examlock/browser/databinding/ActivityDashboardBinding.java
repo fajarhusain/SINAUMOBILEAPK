@@ -11,7 +11,6 @@ import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.examlock.browser.R;
@@ -34,10 +33,10 @@ public final class ActivityDashboardBinding implements ViewBinding {
   public final Button btnStartExam;
 
   @NonNull
-  public final CardView cardConfig;
+  public final LinearLayout cardConfig;
 
   @NonNull
-  public final CardView cardGoToExam;
+  public final LinearLayout cardGoToExam;
 
   @NonNull
   public final TextInputEditText etExamUrl;
@@ -67,8 +66,8 @@ public final class ActivityDashboardBinding implements ViewBinding {
   public final TextView tvWelcome;
 
   private ActivityDashboardBinding(@NonNull ScrollView rootView, @NonNull Button btnAdminSettings,
-      @NonNull Button btnScanQR, @NonNull Button btnStartExam, @NonNull CardView cardConfig,
-      @NonNull CardView cardGoToExam, @NonNull TextInputEditText etExamUrl,
+      @NonNull Button btnScanQR, @NonNull Button btnStartExam, @NonNull LinearLayout cardConfig,
+      @NonNull LinearLayout cardGoToExam, @NonNull TextInputEditText etExamUrl,
       @NonNull TextInputEditText etExitPassword, @NonNull TextInputEditText etStudentName,
       @NonNull LinearLayout layoutAdminDashboard, @NonNull LinearLayout layoutAdminPanel,
       @NonNull LinearLayout layoutStudentView, @NonNull Switch swOfflineMode,
@@ -136,13 +135,13 @@ public final class ActivityDashboardBinding implements ViewBinding {
       }
 
       id = R.id.cardConfig;
-      CardView cardConfig = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout cardConfig = ViewBindings.findChildViewById(rootView, id);
       if (cardConfig == null) {
         break missingId;
       }
 
       id = R.id.cardGoToExam;
-      CardView cardGoToExam = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout cardGoToExam = ViewBindings.findChildViewById(rootView, id);
       if (cardGoToExam == null) {
         break missingId;
       }

@@ -80,6 +80,10 @@
         "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/xml/accessibility_service_config.xml"
     },
     {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_bg_card_glass.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/bg_card_glass.xml"
+    },
+    {
         "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_refresh.xml.flat",
         "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_refresh.xml"
     },

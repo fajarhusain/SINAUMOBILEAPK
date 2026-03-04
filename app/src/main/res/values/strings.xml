@@ -3,4 +3,20 @@
     <string name="app_name">SINAU</string>
     <string name="accessibility_service_label">SINAU Security Monitor</string>
     <string name="accessibility_service_description">Memantau aplikasi di latar depan untuk mencegah kecurangan selama ujian</string>
+
+    <!-- Dashboard Strings -->
+    <string name="app_version">SINAU v2.0</string>
+    <string name="admin_panel_title">ADMIN PANEL</string>
+    <string name="config_title">Konfigurasi URL &amp; QR Code</string>
+    <string name="go_to_exam_title">Masuk ke Halaman Ujian</string>
+    <string name="exam_config_header">Konfigurasi Ujian</string>
+    <string name="exam_url_hint">URL Ujian</string>
+    <string name="exit_password_hint">Password Keluar</string>
+    <string name="offline_mode_label">Mode Offline</string>
+    <string name="advanced_settings_label">Pengaturan Lanjutan</string>
+    <string name="student_data_header">DATA PESERTA</string>
+    <string name="student_name_hint">Nama Lengkap Siswa</string>
+    <string name="start_exam_label">MULAI UJIAN SEKARANG</string>
+    <string name="setup_qr_label">Setup via QR Code</string>
+    <string name="footer_text">PATITECH ACADEMY</string>
 </resources>
