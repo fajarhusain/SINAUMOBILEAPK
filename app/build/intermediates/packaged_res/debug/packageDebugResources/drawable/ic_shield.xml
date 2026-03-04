@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer Circular Border (representing unity/completeness) -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M50,2 C23.49,2 2,23.49 2,50 C2,76.51 23.49,98 50,98 C76.51,98 98,76.51 98,50 C98,23.49 76.51,2 50,2 Z" />
+
+    <!-- Inner White Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,8 C26.8,8 8,26.8 8,50 C8,73.2 26.8,92 50,92 C73.2,92 92,73.2 92,50 C92,26.8 73.2,8 50,8 Z" />
+
+    <!-- Stylized Book (Symbol of Knowledge) -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M30,40 L50,45 L70,40 V65 C70,65 50,75 30,65 V40 Z" />
+
+    <!-- Torch/Flame (Symbol of Spirit/Enlightenment) -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M50,15 Q55,25 50,35 Q45,25 50,15 Z" />
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M50,20 Q53,26 50,32 Q47,26 50,20 Z" />
+
+    <!-- Red Banner at bottom -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M25,75 Q50,85 75,75 L78,82 Q50,92 22,82 Z" />
+
+    <!-- Stylized JK Initials -->
+    <!-- J -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,50 V62 Q43,65 40,65 H38 V62 H40 Q41,62 41,60 V50 Z" />
+    <!-- K -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,50 V65 M55,57 L62,50 M55,58 L62,65" />
+</vector>

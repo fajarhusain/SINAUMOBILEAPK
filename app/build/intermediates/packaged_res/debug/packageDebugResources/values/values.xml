@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0A0E1A</color>
+    <color name="card_bg">#1E2A3A</color>
+    <color name="colorAccent">#4FC3F7</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="status_green">#4CAF50</color>
+    <color name="text_primary">#ECEFF1</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="warning_red">#FF5722</color>
+    <color name="warning_yellow">#FFC107</color>
+    <string name="accessibility_service_description">Memantau aplikasi di latar depan untuk mencegah kecurangan selama ujian</string>
+    <string name="accessibility_service_label">SINAU Security Monitor</string>
+    <string name="app_name">SINAU</string>
+    <style name="ExamDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="android:background">#1E2A3A</item>
+        <item name="colorOnSurface">#ECEFF1</item>
+    </style>
+    <style name="Theme.ExamBrowser" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryVariant">#0D47A1</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#4FC3F7</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorSurface">#1E2A3A</item>
+        <item name="colorOnSurface">#ECEFF1</item>
+        <item name="android:windowBackground">#0A0E1A</item>
+        <item name="android:statusBarColor">#111827</item>
+        <item name="android:navigationBarColor">#111827</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E1A">
+
+    <!-- TOP STATUS BAR -->
+    <LinearLayout
+        android:id="@+id/llStatusBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#111827"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Refresh Button -->
+        <ImageButton
+            android:id="@+id/btnRefresh"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_refresh"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="#FFFFFF"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Refresh" />
+
+        <!-- Shield Icon -->
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_lock"
+            android:tint="#4FC3F7"
+            android:layout_marginEnd="6dp" />
+
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ECEFF1"
+            android:textSize="11sp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● UJIAN AKTIF"
+            android:textColor="#4CAF50"
+            android:textSize="10sp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Bluetooth Icon -->
+        <ImageView
+            android:id="@+id/ivBtStatus"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_bluetooth"
+            android:tint="#546E7A"
+            android:layout_marginEnd="6dp" />
+
+        <!-- Headset Icon -->
+        <ImageView
+            android:id="@+id/ivHeadsetStatus"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_headset"
+            android:tint="#546E7A"
+            android:layout_marginEnd="6dp" />
+
+        <!-- Wifi Icon -->
+        <ImageView
+            android:id="@+id/ivWifiStatus"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_wifi"
+            android:tint="#4CAF50"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Battery -->
+        <TextView
+            android:id="@+id/tvBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔋"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Clock -->
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="#4FC3F7"
+            android:textSize="11sp"
+            android:fontFamily="monospace" />
+
+    </LinearLayout>
+
+    <!-- WEBVIEW - EXAM CONTENT -->
+    <WebView
+        android:id="@+id/examWebView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/llStatusBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- OFFLINE VIEW - SMA JOYO KUSUMO -->
+    <LinearLayout
+        android:id="@+id/offlineView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#0A0E1A"
+        android:visibility="gone"
+        android:padding="32dp"
+        app:layout_constraintTop_toBottomOf="@id/llStatusBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_joyokusumo"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMA JOYO KUSUMO"
+            android:textColor="#4FC3F7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koneksi Internet Terputus"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohon periksa koneksi Wi-Fi Anda atau hubungi pengawas ujian jika masalah berlanjut."
+            android:textColor="#B0BEC5"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnRetryConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COBA LAGI"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- LOADING OVERLAY -->
+    <FrameLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC0A0E1A"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:indeterminateTint="#4FC3F7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memuat soal ujian..."
+                android:textColor="#B0BEC5"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

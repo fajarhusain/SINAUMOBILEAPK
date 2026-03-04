@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_login.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.examlock.browser.app-debug-39:/layout_activity_dashboard.xml.flat",
+        "source": "com.examlock.browser.app-main-41:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_shield.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_qr_generator.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_qr_generator.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_lock.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_admin_settings.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_admin_settings.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/xml_network_security_config.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_exam.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_qr_scan.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_qr_scan.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_bluetooth.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_bluetooth.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/layout_activity_dashboard.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/xml_accessibility_service_config.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_refresh.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_logo_joyokusumo.png.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/logo_joyokusumo.png"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/xml_file_paths.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_qr_scan_frame.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/qr_scan_frame.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_headset.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_headset.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_bg_gradient_dark.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/bg_gradient_dark.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-debug-39:/drawable_ic_wifi.xml.flat",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/drawable/ic_wifi.xml"
+    }
+]

@@ -1,0 +1,8 @@
+com.examlock.browser.app-pngs-0 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/generated/res/pngs/debug
+com.examlock.browser.app-resValues-1 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/generated/res/resValues/debug
+com.examlock.browser.app-updated_navigation_xml-2 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/generated/updated_navigation_xml/debug
+com.examlock.browser.app-packageDebugResources-3 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.examlock.browser.app-packageDebugResources-4 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.examlock.browser.app-debug-5 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.examlock.browser.app-debug-6 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/debug/res
+com.examlock.browser.app-main-7 /Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/res

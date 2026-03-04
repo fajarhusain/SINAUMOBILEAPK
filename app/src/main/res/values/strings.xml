@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SINAU</string>
+    <string name="accessibility_service_label">SINAU Security Monitor</string>
+    <string name="accessibility_service_description">Memantau aplikasi di latar depan untuk mencegah kecurangan selama ujian</string>
+</resources>

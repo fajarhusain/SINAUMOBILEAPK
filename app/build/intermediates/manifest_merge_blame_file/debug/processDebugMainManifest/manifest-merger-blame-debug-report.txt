@@ -1,0 +1,482 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.examlock.browser"
+4    android:versionCode="2"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:8:5-79
+13-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:10:5-66
+15-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:11:5-81
+16-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:12:5-77
+17-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:12:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+18-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:13:5-89
+18-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:13:22-86
+19    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+19-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:14:5-72
+19-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:14:22-69
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:15:5-68
+20-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:16:5-76
+21-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+22-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:17:5-73
+22-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:17:22-70
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:18:5-80
+23-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:18:22-77
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:19:5-78
+24-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:19:22-75
+25    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+25-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:20:5-76
+25-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:20:22-73
+26    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+26-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:21:5-22:47
+26-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:21:22-75
+27    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+27-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:23:5-24:47
+27-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:23:22-82
+28    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+28-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:25:5-26:47
+28-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:25:22-77
+29    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+29-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:27:5-75
+29-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:27:22-72
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:28:5-71
+30-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:28:22-68
+31    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+31-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:29:5-75
+31-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:29:22-73
+32    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+32-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:30:5-75
+32-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:30:22-72
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:31:5-68
+33-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:31:22-65
+34
+35    <uses-feature
+35-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:33:5-85
+36        android:name="android.hardware.camera"
+36-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:33:19-57
+37        android:required="false" />
+37-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:33:58-82
+38    <uses-feature
+38-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:34:5-88
+39        android:name="android.hardware.bluetooth"
+39-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:34:19-60
+40        android:required="false" />
+40-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:34:61-85
+41
+42    <permission
+42-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+43        android:name="com.examlock.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.examlock.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:36:5-151:19
+49        android:allowBackup="false"
+49-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:37:9-36
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.13.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/0f484ff9cf2d673ec3011e48dff6aa54/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:extractNativeLibs="false"
+52-->INJECTED
+53        android:hardwareAccelerated="true"
+53-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:44:9-43
+54        android:icon="@mipmap/ic_launcher"
+54-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:38:9-43
+55        android:label="@string/app_name"
+55-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:39:9-41
+56        android:largeHeap="true"
+56-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:45:9-33
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:40:9-54
+58        android:supportsRtl="true"
+58-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:41:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.ExamBrowser"
+60-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:42:9-49
+61        android:usesCleartextTraffic="true" >
+61-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:43:9-44
+62
+63        <!-- Dashboard / Setup Exam Activity (Main Entry) -->
+64        <activity
+64-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:49:9-59:20
+65            android:name="com.examlock.browser.ui.DashboardActivity"
+65-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:50:13-49
+66            android:exported="true"
+66-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:51:13-36
+67            android:launchMode="singleTask"
+67-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:54:13-44
+68            android:screenOrientation="portrait"
+68-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:52:13-49
+69            android:windowSoftInputMode="adjustResize" >
+69-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:53:13-55
+70            <intent-filter>
+70-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:55:13-58:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:56:17-69
+71-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:56:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:57:17-77
+73-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:57:27-74
+74            </intent-filter>
+75        </activity>
+76
+77        <!-- Login Activity (Kept for now, but not launcher) -->
+78        <activity
+78-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:62:9-67:47
+79            android:name="com.examlock.browser.ui.LoginActivity"
+79-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:63:13-45
+80            android:exported="false"
+80-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:64:13-37
+81            android:launchMode="singleTask"
+81-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:67:13-44
+82            android:screenOrientation="portrait"
+82-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:65:13-49
+83            android:windowSoftInputMode="adjustResize" />
+83-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:66:13-55
+84
+85        <!-- Main Exam Browser Activity -->
+86        <activity
+86-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:70:9-77:49
+87            android:name="com.examlock.browser.ui.ExamActivity"
+87-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:71:13-44
+88            android:excludeFromRecents="true"
+88-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:77:13-46
+89            android:exported="false"
+89-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:72:13-37
+90            android:immersive="true"
+90-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:76:13-37
+91            android:launchMode="singleTask"
+91-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:75:13-44
+92            android:screenOrientation="portrait"
+92-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:73:13-49
+93            android:windowSoftInputMode="adjustResize" />
+93-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:74:13-55
+94
+95        <!-- QR Scanner Activity -->
+96        <activity
+96-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:80:9-83:52
+97            android:name="com.examlock.browser.ui.QRScanActivity"
+97-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:81:13-46
+98            android:exported="false"
+98-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:82:13-37
+99            android:screenOrientation="portrait" />
+99-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:83:13-49
+100
+101        <!-- Admin Settings Activity -->
+102        <activity
+102-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:86:9-89:52
+103            android:name="com.examlock.browser.ui.AdminSettingsActivity"
+103-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:87:13-53
+104            android:exported="false"
+104-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:88:13-37
+105            android:screenOrientation="portrait" />
+105-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:89:13-49
+106
+107        <!-- QR Generator Activity -->
+108        <activity
+108-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:92:9-95:52
+109            android:name="com.examlock.browser.ui.QRGeneratorActivity"
+109-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:93:13-51
+110            android:exported="false"
+110-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:94:13-37
+111            android:screenOrientation="portrait" />
+111-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:95:13-49
+112
+113        <!-- Foreground Guard Service -->
+114        <service
+114-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:98:9-106:19
+115            android:name="com.examlock.browser.service.ExamGuardService"
+115-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:99:13-53
+116            android:exported="false"
+116-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:100:13-37
+117            android:foregroundServiceType="specialUse"
+117-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:101:13-55
+118            android:stopWithTask="false" >
+118-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:102:13-41
+119            <property
+119-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:103:13-105:56
+120                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+120-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:104:17-76
+121                android:value="exam_security_monitor" />
+121-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:105:17-54
+122        </service>
+123
+124        <!-- Boot Receiver -->
+125        <receiver
+125-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:109:9-115:20
+126            android:name="com.examlock.browser.receiver.BootReceiver"
+126-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:110:13-50
+127            android:exported="true" >
+127-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:111:13-36
+128            <intent-filter>
+128-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:112:13-114:29
+129                <action android:name="android.intent.action.BOOT_COMPLETED" />
+129-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:113:17-79
+129-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:113:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <!-- Screen Off Receiver -->
+134        <receiver
+134-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:118:9-125:20
+135            android:name="com.examlock.browser.receiver.ScreenReceiver"
+135-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:119:13-52
+136            android:exported="false" >
+136-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:120:13-37
+137            <intent-filter>
+137-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:121:13-124:29
+138                <action android:name="android.intent.action.SCREEN_OFF" />
+138-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:122:17-75
+138-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:122:25-72
+139                <action android:name="android.intent.action.SCREEN_ON" />
+139-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:123:17-74
+139-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:123:25-71
+140            </intent-filter>
+141        </receiver>
+142
+143        <!-- Accessibility Service for blocking floating apps -->
+144        <service
+144-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:128:9-139:19
+145            android:name="com.examlock.browser.service.ExamAccessibilityService"
+145-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:129:13-61
+146            android:exported="true"
+146-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:130:13-36
+147            android:label="@string/accessibility_service_label"
+147-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:132:13-64
+148            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+148-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:131:13-79
+149            <intent-filter>
+149-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:133:13-135:29
+150                <action android:name="android.accessibilityservice.AccessibilityService" />
+150-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:134:17-92
+150-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:134:25-89
+151            </intent-filter>
+152
+153            <meta-data
+153-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:136:13-138:72
+154                android:name="android.accessibilityservice"
+154-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:137:17-60
+155                android:resource="@xml/accessibility_service_config" />
+155-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:138:17-69
+156        </service>
+157
+158        <provider
+158-->INJECTED
+159            android:name="androidx.core.content.FileProvider"
+159-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:142:13-62
+160            android:authorities="com.examlock.browser.provider"
+160-->INJECTED
+161            android:exported="false"
+161-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:144:13-37
+162            android:grantUriPermissions="true" >
+162-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:145:13-47
+163            <meta-data
+163-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:146:13-148:54
+164                android:name="android.support.FILE_PROVIDER_PATHS"
+164-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:147:17-67
+165                android:resource="@xml/file_paths" />
+165-->/Users/fajarhusainasyari/Downloads/ExamBrowser/app/src/main/AndroidManifest.xml:148:17-51
+166        </provider>
+167
+168        <service
+168-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:24:9-33:19
+169            android:name="androidx.camera.core.impl.MetadataHolderService"
+169-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:25:13-75
+170            android:enabled="false"
+170-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:26:13-36
+171            android:exported="false" >
+171-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:27:13-37
+172            <meta-data
+172-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:30:13-32:89
+173                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+173-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:31:17-103
+174                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+174-->[androidx.camera:camera-camera2:1.3.4] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/00a6bdd6309c3a60d0eea984fbdb473c/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:32:17-86
+175        </service>
+176        <service
+176-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
+177            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+177-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
+178            android:directBootAware="true"
+178-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:17:13-43
+179            android:exported="false" >
+179-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
+180            <meta-data
+180-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
+181                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+181-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f0fc422a42e989a9451806b26e950c1a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+183            <meta-data
+183-->[com.google.mlkit:vision-common:17.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/83caf074a02ff9cdac0d4729eb5cbbed/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+184                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+184-->[com.google.mlkit:vision-common:17.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/83caf074a02ff9cdac0d4729eb5cbbed/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.mlkit:vision-common:17.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/83caf074a02ff9cdac0d4729eb5cbbed/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+186            <meta-data
+186-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:20:13-22:85
+187                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+187-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:21:17-120
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:22:17-82
+189        </service>
+190
+191        <provider
+191-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:9:9-13:38
+192            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+192-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:10:13-78
+193            android:authorities="com.examlock.browser.mlkitinitprovider"
+193-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:11:13-69
+194            android:exported="false"
+194-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:12:13-37
+195            android:initOrder="99" />
+195-->[com.google.mlkit:common:18.11.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/d248d59f19a2b7bf77ece44171249f95/transformed/jetified-common-18.11.0/AndroidManifest.xml:13:13-35
+196        <provider
+196-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+197            android:name="androidx.startup.InitializationProvider"
+197-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+198            android:authorities="com.examlock.browser.androidx-startup"
+198-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+199            android:exported="false" >
+199-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+200            <meta-data
+200-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+201                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+201-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+202                android:value="androidx.startup" />
+202-->[androidx.emoji2:emoji2:1.3.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/f6c57233adf5081000473d45bc9c55b1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+203            <meta-data
+203-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/54b6a58ff68480f83b09289080642ac2/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+204                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+204-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/54b6a58ff68480f83b09289080642ac2/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+205                android:value="androidx.startup" />
+205-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/54b6a58ff68480f83b09289080642ac2/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+206            <meta-data
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+207                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+208                android:value="androidx.startup" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+209        </provider>
+210
+211        <activity
+211-->[com.google.android.gms:play-services-base:18.5.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e6cb47f550eea2f8f5b44c7308de936d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+212-->[com.google.android.gms:play-services-base:18.5.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e6cb47f550eea2f8f5b44c7308de936d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-base:18.5.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e6cb47f550eea2f8f5b44c7308de936d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-base:18.5.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e6cb47f550eea2f8f5b44c7308de936d/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+215
+216        <meta-data
+216-->[com.google.android.gms:play-services-basement:18.4.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b3c19e833fd59514e47f33b61961cd96/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+217            android:name="com.google.android.gms.version"
+217-->[com.google.android.gms:play-services-basement:18.4.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b3c19e833fd59514e47f33b61961cd96/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+218            android:value="@integer/google_play_services_version" />
+218-->[com.google.android.gms:play-services-basement:18.4.0] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b3c19e833fd59514e47f33b61961cd96/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+219
+220        <receiver
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+221            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+222            android:directBootAware="false"
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+223            android:enabled="true"
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+224            android:exported="true"
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+225            android:permission="android.permission.DUMP" >
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+227                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+228            </intent-filter>
+229            <intent-filter>
+229-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+230                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+231            </intent-filter>
+232            <intent-filter>
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+233                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+234            </intent-filter>
+235            <intent-filter>
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+236                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/ca2eecb6f1692bbd23be524576a0e7e9/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+237            </intent-filter>
+238        </receiver>
+239
+240        <service
+240-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+241            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+242            android:exported="false" >
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+243            <meta-data
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+244                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+245                android:value="cct" />
+245-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/e8e27726f9d19e9f4e6ed5263d1eae26/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+246        </service>
+247        <service
+247-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+248            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+248-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+249            android:exported="false"
+249-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+250            android:permission="android.permission.BIND_JOB_SERVICE" >
+250-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+251        </service>
+252
+253        <receiver
+253-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+254            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+254-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+255            android:exported="false" />
+255-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/fajarhusainasyari/.gradle/caches/9.3.1/transforms/b8a1db916f0e2e553781e9a828da24f2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+256    </application>
+257
+258</manifest>

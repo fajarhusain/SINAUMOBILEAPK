@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_exam.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_qr_scan.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_qr_scan.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_admin_settings.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_admin_settings.xml"
+    },
+    {
+        "merged": "com.examlock.browser.app-mergeDebugResources-38:/layout/activity_dashboard.xml",
+        "source": "com.examlock.browser.app-main-41:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_qr_generator.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_qr_generator.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_dashboard.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "/Users/fajarhusainasyari/.gradle/daemon/9.3.1/com.examlock.browser.app-main-41:/layout/activity_login.xml"
+    }
+]
